@@ -9,7 +9,7 @@ from urlparse import urljoin
 from sites import get_all_sites
 
 # Loggingsort
-logger = logging.getLogger('python-craiglist')
+logger = logging.getLogger('craiglistwrappertest')
 handler = logging.StreamHandler()
 logger.addHandler(handler)
 
